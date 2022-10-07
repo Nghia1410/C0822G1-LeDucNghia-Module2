@@ -3,7 +3,7 @@ package ss3_mang_va_phuong_thuc_trong_java.bai_tap;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TypeOfColumn {
+public class TotalOfColumn {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int number1, number2;
