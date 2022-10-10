@@ -48,5 +48,6 @@ public class TotalOfColumn {
 
         }
         System.out.println("tổng của cột " + column + " là " + total);
+
     }
 }
