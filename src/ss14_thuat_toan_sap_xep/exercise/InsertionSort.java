@@ -17,7 +17,7 @@ public class InsertionSort {
         for (int i = 0; i < list.length; i++) {
             System.out.print(list[i] + "\t");
         }
-        System.out.println("\nBegin sort processing..."); 
+        System.out.println("\nBegin sort processing...");
         InsertionByStep(list);
     }
 
