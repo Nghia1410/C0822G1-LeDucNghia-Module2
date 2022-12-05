@@ -1,4 +1,7 @@
 package casetudy.task_2.service.impl;
 
-public class PromotionService {
+import casetudy.task_2.service.IPromotionService;
+
+public class PromotionService implements IPromotionService {
+
 }

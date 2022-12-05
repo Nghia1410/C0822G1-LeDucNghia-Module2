@@ -1,4 +1,16 @@
 package casetudy.task_2.service.impl;
 
-public class FacilityService {
+import casetudy.task_2.service.IFacilityService;
+
+public  class FacilityService implements IFacilityService {
+
+    @Override
+    public void add() {
+
+    }
+
+    @Override
+    public void display() {
+
+    }
 }

@@ -1,4 +1,6 @@
-package casetudy.controllers;
+package casetudy.task_2.controller;
+
+import casetudy.task_2.controller.FuramaController;
 
 public class BookingManagement extends FuramaController {
     public static void displayBookingManagement() {

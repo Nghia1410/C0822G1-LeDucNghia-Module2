@@ -1,4 +1,5 @@
 package casetudy.task_2.service;
 
-public interface IBookingService {
+public  interface IBookingService extends IService  {
+
 }

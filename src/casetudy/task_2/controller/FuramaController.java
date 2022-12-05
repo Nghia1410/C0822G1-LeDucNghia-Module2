@@ -1,4 +1,4 @@
-package casetudy.controllers;
+package casetudy.task_2.controller;
 
 import java.util.Scanner;
 
@@ -20,16 +20,16 @@ public class FuramaController {
         } while (select > 6 || select < 1);
         switch (select) {
             case 1:
-                casetudy.controllers.EmployeeManagement.displayEmployeeManagement();
+                EmployeeManagement.displayEmployeeManagement();
                 break;
             case 2:
-                casetudy.controllers.CustomerManagement.displayCustomerManagement();
+                CustomerManagement.displayCustomerManagement();
                 break;
             case 3:
-                casetudy.controllers.FacilityManagement.displayFacilityManagement();
+                FacilityManagement.displayFacilityManagement();
                 break;
             case 4:
-                casetudy.controllers.BookingManagement.displayBookingManagement();
+                BookingManagement.displayBookingManagement();
                 break;
             case 5:
                 PromotionManagement.displayPromotionManagement();

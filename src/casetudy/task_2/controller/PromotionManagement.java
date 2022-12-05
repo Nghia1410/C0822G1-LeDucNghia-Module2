@@ -1,6 +1,6 @@
-package casetudy.controllers;
+package casetudy.task_2.controller;
 
-import casetudy.controllers.FuramaController;
+import casetudy.task_2.controller.FuramaController;
 
 public class PromotionManagement extends FuramaController {
     public static void displayPromotionManagement() {

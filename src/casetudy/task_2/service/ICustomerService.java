@@ -1,4 +1,4 @@
 package casetudy.task_2.service;
 
-public interface ICustomerService {
+public interface ICustomerService extends IService {
 }

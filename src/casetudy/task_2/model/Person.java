@@ -1,6 +1,6 @@
-package casetudy.task_2;
+package casetudy.task_2.model;
 
-public class Person {
+public  class Person {
     private int id;
     private String fullName;
     private int dateOfBirth;
@@ -8,6 +8,9 @@ public class Person {
     private int identityCard;
     private int phoneNumber;
     private String email;
+    private String level;
+    private String position;
+    private int salary;
 
     public Person() {
     }
@@ -20,6 +23,9 @@ public class Person {
         this.identityCard = identityCard;
         this.phoneNumber = phoneNumber;
         this.email = email;
+        this.level = level;
+        this.position = position;
+        this.salary = salary;
     }
 
     public int getId() {
@@ -76,6 +82,46 @@ public class Person {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getLevel() {
+        return level;
+    }
+
+    public void setLevel(String level) {
+        this.level = level;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", fullName='" + fullName + '\'' +
+                ", dateOfBirth=" + dateOfBirth +
+                ", sex='" + sex + '\'' +
+                ", identityCard=" + identityCard +
+                ", phoneNumber=" + phoneNumber +
+                ", email='" + email + '\'' +
+                ", level='" + level + '\'' +
+                ", position='" + position + '\'' +
+                ", salary=" + salary +
+                '}';
     }
 }
 

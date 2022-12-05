@@ -1,4 +1,5 @@
-package casetudy.task_2.service.impl;
+package casetudy.task_2.service;
 
-public interface IFacilityService {
+public interface IFacilityService extends IService {
+
 }

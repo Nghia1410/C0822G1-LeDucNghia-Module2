@@ -1,4 +1,4 @@
-package casetudy.task_2;
+package casetudy.task_2.model;
 
 public abstract class Facility {
     private String nameService;
