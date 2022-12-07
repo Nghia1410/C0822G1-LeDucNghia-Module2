@@ -87,24 +87,7 @@ public class EmployeeService implements IEmployeeService {
 
 
     @Override
-    public void edit() {
-//        List<Employee> employeeList = WriteRead.readFileEmployee(EMPLOYEE_PATH);
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Nhập id muốn xoá: ");
-//        String number = scanner.nextLine();
-//        boolean check = false;
-//
-//            for (int i = 0; i < employeeList.size(); i++) {
-//                if (!number.equals(employeeList.get(i).getId())) {
-//                    check = true;
-//                    System.out.println(employeeList.get(i).toString());
-//                }
-//            }
-//            if (check) {
-//                System.out.println("id không tồn tại vui lòng nhập lại");
-//            }
-//        }
-    }
+    public void edit() {}
 }
 
 
