@@ -1,6 +1,5 @@
 package casetudy.task_2.controller;
 
-import casetudy.task_2.controller.FuramaController;
 import casetudy.task_2.service.IService;
 import casetudy.task_2.service.impl.EmployeeService;
 
@@ -30,11 +29,13 @@ public class EmployeeManagement extends FuramaController {
                 displayEmployeeManagement();
                 break;
             case 3:
+                service.delete();
                 break;
             case 4:
+                service.edit();
                 break;
             case 5:
-                displayEmployeeManagement();
+               displayMainMenu();
         }
     }
 }

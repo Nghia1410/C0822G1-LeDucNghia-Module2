@@ -13,4 +13,14 @@ public  class FacilityService implements IFacilityService {
     public void display() {
 
     }
+
+    @Override
+    public void delete() {
+
+    }
+
+    @Override
+    public void edit() {
+
+    }
 }

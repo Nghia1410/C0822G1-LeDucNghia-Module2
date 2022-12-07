@@ -12,4 +12,14 @@ public class BookingService implements IBookingService {
     public void display() {
 
     }
+
+    @Override
+    public void delete() {
+
+    }
+
+    @Override
+    public void edit() {
+
+    }
 }

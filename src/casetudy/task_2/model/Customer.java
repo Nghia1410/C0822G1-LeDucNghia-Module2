@@ -7,13 +7,18 @@ public class Customer extends Person {
     public Customer() {
     }
 
-    public Customer(int id, String fullName, int dateOfBirth, String sex, int identityCard, int phoneNumber, String email, String level, String position, int salary) {
-        super(id, fullName, dateOfBirth, sex, identityCard, phoneNumber, email, level, position, salary);
-    }
-
     public Customer(String customerType, String address) {
         this.customerType = customerType;
         this.address = address;
+    }
+
+    public Customer(int id, String fullName, int dateOfBirth, String sex, int identityCard, int phoneNumber, String email, String customerType, String address) {
+        super(id, fullName, dateOfBirth, sex, identityCard, phoneNumber, email);
+        this.customerType = customerType;
+        this.address = address;
+    }
+
+    public Customer(int id, String fullName, int dateOfBirth, String sex, int identityCard, int phoneNumber, String email, String level, String position, int salary, String customerType, String address) {
     }
 
     public String getCustomerType() {
@@ -32,10 +37,11 @@ public class Customer extends Person {
         this.address = address;
     }
 
-    public Customer(int id, String fullName, int dateOfBirth, String sex, int identityCard, int phoneNumber, String email, String level, String position, int salary, String customerType, String address) {
-        super(id, fullName, dateOfBirth, sex, identityCard, phoneNumber, email, level, position, salary);
-        this.customerType = customerType;
-        this.address = address;
-
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "customerType='" + customerType + '\'' +
+                ", address='" + address + '\'' +
+                "} " + super.toString();
     }
 }
