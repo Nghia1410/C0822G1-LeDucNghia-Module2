@@ -1,7 +1,5 @@
 package casetudy.task_2.controller;
 
-import casetudy.task_2.controller.FuramaController;
-
 public class FacilityManagement extends FuramaController {
     public static void displayFacilityManagement() {
         System.out.println("1\tDisplay list facility\n" +
@@ -24,7 +22,7 @@ public class FacilityManagement extends FuramaController {
                 break;
             case 4:
                 displayFacilityManagement();
-
         }
+
     }
 }

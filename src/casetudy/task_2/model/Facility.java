@@ -58,6 +58,8 @@ public abstract class Facility {
         this.typeRental = typeRental;
     }
 
+    public abstract String getInfo();
+
     @Override
     public String toString() {
         return "Facility{" +
@@ -68,4 +70,7 @@ public abstract class Facility {
                 ", typeRental='" + typeRental + '\'' +
                 '}';
     }
+
+
+
 }

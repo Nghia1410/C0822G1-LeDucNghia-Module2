@@ -14,6 +14,11 @@ public class Villa extends Facility {
         super(nameService, usableArea, cost, maxPeople, typeRental);
     }
 
+    @Override
+    public String getInfo() {
+        return null;
+    }
+
     public Villa(String roomStandard, float areaOfPool, int floor) {
         this.roomStandard = roomStandard;
         this.areaOfPool = areaOfPool;
@@ -25,6 +30,9 @@ public class Villa extends Facility {
         this.roomStandard = roomStandard;
         this.areaOfPool = areaOfPool;
         this.floor = floor;
+    }
+
+    public Villa(String s, String s1, double parseDouble, int parseInt, int parseInt1, String s2, String s3, double parseDouble1, int parseInt2) {
     }
 
     public String getRoomStandard() {

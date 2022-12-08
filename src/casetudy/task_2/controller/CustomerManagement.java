@@ -28,7 +28,7 @@ public class CustomerManagement extends FuramaController {
                 displayCustomerManagement();
                 break;
             case 3:
-
+                customerService.edit();
                 displayCustomerManagement();
                 break;
             case 4:

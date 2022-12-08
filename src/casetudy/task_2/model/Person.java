@@ -1,6 +1,6 @@
 package casetudy.task_2.model;
 
-public class Person{
+public abstract class Person {
     private int id;
     private String fullName;
     private int dateOfBirth;
@@ -78,6 +78,8 @@ public class Person{
         this.email = email;
     }
 
+    public abstract String getInfo();
+
     @Override
     public String toString() {
         return "Person{" +
@@ -90,4 +92,5 @@ public class Person{
                 ", email='" + email + '\'' +
                 '}';
     }
+
 }

@@ -12,6 +12,11 @@ public class Room extends Facility {
         super(nameService, usableArea, cost, maxPeople, typeRental);
     }
 
+    @Override
+    public String getInfo() {
+        return null;
+    }
+
     public Room(String freeService) {
         this.freeService = freeService;
     }
@@ -19,6 +24,9 @@ public class Room extends Facility {
     public Room(String nameService, double usableArea, int cost, int maxPeople, String typeRental, String freeService) {
         super(nameService, usableArea, cost, maxPeople, typeRental);
         this.freeService = freeService;
+    }
+
+    public Room(String s, String s1, double parseDouble, int parseInt, int parseInt1, String s2, String s3) {
     }
 
     public String getFreeService() {

@@ -38,6 +38,11 @@ public class Customer extends Person {
     }
 
     @Override
+    public String getInfo() {
+        return null;
+    }
+
+    @Override
     public String toString() {
         return "Customer{" +
                 "customerType='" + customerType + '\'' +

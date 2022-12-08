@@ -27,13 +27,14 @@ public class EmployeeManagement extends FuramaController {
             case 2:
                 service.add();
                 displayEmployeeManagement();
-                break;
+              return;
             case 3:
                 service.delete();
+                displayEmployeeManagement();
                 break;
-            case 4:
+                case 4:
                 service.edit();
-                break;
+                return;
             case 5:
                displayMainMenu();
         }

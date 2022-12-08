@@ -43,6 +43,11 @@ public class Employee extends Person {
     }
 
     @Override
+    public String getInfo() {
+        return null;
+    }
+
+    @Override
     public String toString() {
         return "Employee{" +
                 "level='" + level + '\'' +
